@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #355C7D, #6C5B7B, #C06C84);
+  color: #fff;
+}
+
+#Titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#placar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto; 
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+#jogador,
+#computador {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+#jogador {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+#computador {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+#jogadorEscolha,
+#computadorEscolha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+#jogadorEscolha li,
+#computadorEscolha li {
+  margin: 10px 0;
+}
+
+#jogadorEscolha img,
+#computadorEscolha img {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+}
+
+#versus {
+  font-size: 2rem;
+}
+
+#mensagem {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
